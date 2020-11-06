@@ -59,9 +59,9 @@ This process begins with a vulnerability report sent to [security@openrobotics.o
 
 1. **Disclosure**
 
-   1. **Maintainer conducts patch pre-notification.** When the fix is ready for release, the Maintainer, at his or her discretion, will notify select individuals that the fix is ready. This notification should be specifically to quickly remediate any build issues caused by the patch, and to finally merge the pull request.
+   1. **Maintainer conducts patch pre-notification.** When the fix is ready for release, the Maintainer, at his or her discretion, will notify select individuals that the fix is ready. This notification should be specifically to quickly remediate any build issues caused by the patch, to merge the pull request, monitor as the patch is bloomed, and finally confirm the fix is sync'd into the ROS distro.
 
-   1. **Coordinator notifies the Reporter that the patch has been released.**
+   1. **Coordinator notifies the Reporter that the patch has been released.** At this point the patch is available as an update to ROS users.
 
    1. **Disclose the patch to a broader audience as desired.** Follow the vulnerabilty disclosure plan if one exists. Consider notifying the ROS community of the patch availability; for example, with a general post to [ROS discourse](https://discourse.ros.org/).
 
